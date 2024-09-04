@@ -141,7 +141,7 @@ plotly.io.write_html(fig, file="plotly_plots/distancesFromDesk.html")
 # fig.show()
 ```
 
-[Distance From Desk Plot](https://html-preview.github.io/?url=https://github.com/sethwellsNZ/motion-log-processing/blob/1f75fb1ef2385a4bfb1f1ace7ac0c90bb5b804e7/plotly_plots/distanceFromDesk.html)
+[Distance From Desk Plot](https://html-preview.github.io/?url=https://github.com/sethwellsNZ/motion-log-processing/blob/main/plotly_plots/distancesFromDesk.html)
 
 
 ```python
@@ -211,7 +211,7 @@ plotly.io.write_html(fig, file="plotly_plots/absAvgAccel.html")
 
 ```
 
-[Absolute Average Acceleration Plot](https://html-preview.github.io/?url=https://github.com/sethwellsNZ/motion-log-processing/blob/1f75fb1ef2385a4bfb1f1ace7ac0c90bb5b804e7/plotly_plots/absAvgAccel.html)
+[Absolute Average Acceleration Plot](https://html-preview.github.io/?url=https://github.com/sethwellsNZ/motion-log-processing/blob/main/plotly_plots/absAvgAccel.html)
 
 Sharp spike to > 3.5 seems like decent indicator for 'stood up'
 
@@ -269,7 +269,7 @@ plotly.io.write_html(fig, file="plotly_plots/latLonDerivative.html")
 # fig.show()
 ```
 
-[Lat/Lon Derivative Plot](https://html-preview.github.io/?url=https://github.com/sethwellsNZ/motion-log-processing/blob/1f75fb1ef2385a4bfb1f1ace7ac0c90bb5b804e7/plotly_plots/latLonDerivative.html)
+[Lat/Lon Derivative Plot](https://html-preview.github.io/?url=https://github.com/sethwellsNZ/motion-log-processing/blob/main/plotly_plots/latLonDerivative.html)
 
 ### Summary
 Implementation to try
