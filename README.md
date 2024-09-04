@@ -137,8 +137,11 @@ import plotly.express
 
 # Distance from desk over time
 fig = plotly.express.line(x=tstamps, y=distancesFromDesk)
+plotly.io.write_html(fig, file="plotly_plots/distancesFromDesk.html")
 # fig.show()
 ```
+
+[Distance From Desk Plot](https://html-preview.github.io/?url=https://github.com/sethwellsNZ/motion-log-processing/blob/1f75fb1ef2385a4bfb1f1ace7ac0c90bb5b804e7/plotly_plots/distanceFromDesk.html)
 
 
 ```python
@@ -161,7 +164,7 @@ plt.show()
 
 
     
-![png](main_files/main_8_0.png)
+![png](main_files/main_9_0.png)
     
 
 
@@ -208,7 +211,7 @@ plotly.io.write_html(fig, file="plotly_plots/absAvgAccel.html")
 
 ```
 
-[Absolute Average Acceleration Plot](plotly_plots/absAvgAccel.html)
+[Absolute Average Acceleration Plot](https://html-preview.github.io/?url=https://github.com/sethwellsNZ/motion-log-processing/blob/1f75fb1ef2385a4bfb1f1ace7ac0c90bb5b804e7/plotly_plots/absAvgAccel.html)
 
 Sharp spike to > 3.5 seems like decent indicator for 'stood up'
 
@@ -239,7 +242,7 @@ plt.show()
 
 
     
-![png](main_files/main_13_0.png)
+![png](main_files/main_14_0.png)
     
 
 
@@ -262,8 +265,11 @@ timestamps = [62687.895989875, 62981.885259375005, 63030.21808525, 63010.8451791
 for t in timestamps:
     fig.add_vline(x=t, line_dash="dash", line_color="red")
 
+plotly.io.write_html(fig, file="plotly_plots/latLonDerivative.html")
 # fig.show()
 ```
+
+[Lat/Lon Derivative Plot](https://html-preview.github.io/?url=https://github.com/sethwellsNZ/motion-log-processing/blob/1f75fb1ef2385a4bfb1f1ace7ac0c90bb5b804e7/plotly_plots/latLonDerivative.html)
 
 ### Summary
 Implementation to try
